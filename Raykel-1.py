@@ -1,0 +1,15 @@
+tupla=(True,5,"Maria",7.49,5)
+lista=["Raykel",6,7,1999]
+print(tupla)
+print(lista)
+tupla1=tuple(lista)
+print(tupla1)
+lista1=list(tupla)
+print(lista1)
+print(tupla.count(5))
+print(len(tupla1))
+nombre,dia,mes,year=tupla1
+print(nombre)
+print(dia)
+print(mes)
+print(year)
